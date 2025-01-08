@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kings Graphics and Branding</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1>Kings Graphics and Branding</h1>
+            <p>For Quality Services</p>
+            <a href="#services" class="btn">Explore Our Services</a>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>
+                At Kings Graphics and Branding, we specialize in delivering top-notch printing and branding solutions tailored to your needs. 
+                Our mission is to help businesses and individuals stand out with exceptional quality and creativity.
+            </p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>T-Shirt Printing</h3>
+                    <p>Custom designs and branding for every occasion.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Business Cards</h3>
+                    <p>Professional and eye-catching business cards.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Banners & Signage</h3>
+                    <p>High-quality banners and signs to promote your business.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Corporate Branding</h3>
+                    <p>Brand identity solutions for businesses of all sizes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We’d love to hear from you! Reach out to us for inquiries or to get started on your project.</p>
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Kings Graphics and Branding. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
